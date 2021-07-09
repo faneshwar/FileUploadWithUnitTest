@@ -13,7 +13,7 @@ namespace WebApplication1.Data
             IList<Login> defaultLogins = new List<Login>
             {
                 new Login() { Username = "test1", Passwrod = "Test@123" },
-                new Login() { Username = "test1", Passwrod = "Test@123" }
+                new Login() { Username = "test2", Passwrod = "Test@123" }
             };
             context.Logins.AddRange(defaultLogins);
             base.Seed(context);
